@@ -1,0 +1,6 @@
+logging:
+  level:
+    ru.digitalleague.universityserver: debug
+
+server:
+  port: 8083

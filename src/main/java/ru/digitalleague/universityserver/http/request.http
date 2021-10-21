@@ -1,0 +1,56 @@
+#POST http://localhost:8083/addTeacher
+#Content-Type: application/json
+#
+#{
+#"teacherId": 2,
+#"firstName": "first_2",
+#"lastName": "last_2",
+#"middleName": "middle_2",
+#"chair": "chair_2"
+#}
+
+
+
+#POST http://localhost:8083/addStudent
+#Content-Type: application/json
+#
+#{
+#  "studentId": 1,
+#  "firstName": "first_1",
+#  "lastName": "last_1",
+#  "middleName": "middle_1",
+#  "speciality": "speciality_1",
+#  "course": 1
+#}
+
+
+#GET http://localhost:8083/findAllStudent
+
+#GET http://localhost:8083/findAllTeacher
+
+#PUT http://localhost:8083/updateStudentFirstNameById/1
+#Content-Type: application/json
+#
+#{
+#  "studentId": 1,
+#  "firstName": "first_2",
+#  "lastName": "last_1",
+#  "middleName": "middle_1",
+#  "speciality": "speciality_1",
+#  "course": 1
+#}
+
+#PUT http://localhost:8083/updateTeacherFirstNameById/1
+#Content-Type: application/json
+#
+#{
+#"teacherId": 2,
+#"firstName": "first_55",
+#"lastName": "last_2",
+#"middleName": "middle_2",
+#"chair": "chair_2"
+#}
+
+#DELETE http://localhost:8083/deleteStudentById/1
+
+#DELETE http://localhost:8083/deleteTeacherById/1
